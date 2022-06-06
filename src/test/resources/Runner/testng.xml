@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="Extent.ExtentListeners"></listener>
+</listeners>
+
+  <test  name="Paypal"> <classes>
+      <class name="TestCases.PaymentflowsPaypal"/>    </classes>
+  </test> <!-- Test -->
+
+ <test  name="Stripe"> <classes>
+      <class name="TestCases.PaymentflowsStripe"/>    </classes>
+  </test> <!-- Test -->
+
+      
+  
+</suite> <!-- Suite -->
